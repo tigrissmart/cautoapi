@@ -10,4 +10,7 @@ public class ApiPaths {
     public static final class TeacherCtrl {
         public static final String CTRL = BASE_PATH + "/teachers";
     }
+    public static final class CourseCtrl {
+        public static final String CTRL = BASE_PATH + "/courses";
+    }
 }

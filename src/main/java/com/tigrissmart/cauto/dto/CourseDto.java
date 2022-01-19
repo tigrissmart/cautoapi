@@ -9,18 +9,11 @@ import javax.validation.constraints.NotNull;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class StudentDto {
-
+public class CourseDto {
     private Long id;
 
     @NotNull
-    private String no;
+    private String name;
     @NotNull
-    private String firstname;
-    @NotNull
-    private String lastname;
-
-    private String address;
-
-
+    private String description;
 }

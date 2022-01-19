@@ -2,11 +2,7 @@ package com.tigrissmart.cauto.service.impl;
 
 
 import com.tigrissmart.cauto.dao.TeacherRepository;
-import com.tigrissmart.cauto.dao.entity.Student;
 import com.tigrissmart.cauto.dao.entity.Teacher;
-
-
-import com.tigrissmart.cauto.dto.StudentDto;
 import com.tigrissmart.cauto.dto.TeacherDto;
 import com.tigrissmart.cauto.service.TeacherService;
 import com.tigrissmart.cauto.util.TPage;
